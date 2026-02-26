@@ -64,14 +64,19 @@ header p{
 .btn-whatsapp{
     background:#25D366;
     color:white;
-    padding:15px 25px;
+    padding:16px 35px;
     text-decoration:none;
-    border-radius:8px;
+    border-radius:50px;
     font-weight:bold;
     display:inline-block;
     position:relative;
     overflow:hidden;
-    animation:pulse 2.5s infinite;
+    box-shadow:0 8px 25px rgba(0,0,0,0.3);
+    transition:all 0.3s ease;
+}
+    .btn-whatsapp:hover{
+    transform:translateY(-4px);
+    box-shadow:0 12px 30px rgba(0,0,0,0.4);
 }
 .btn-whatsapp::before{
     content:"";
